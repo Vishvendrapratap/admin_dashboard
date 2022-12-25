@@ -1,0 +1,12 @@
+.error{
+    font-size: 100px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pnf{
+    font-size: 20px; margin-top: -30px;
+}
+.pnfinfo{
+    margin-top: 70px;
+}
+._404container{
+    height: 600px; color: grey;
+}

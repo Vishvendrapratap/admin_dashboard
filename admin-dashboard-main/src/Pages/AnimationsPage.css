@@ -1,0 +1,78 @@
+.animationscontainer{
+    height: 600px;
+}
+.animationcards{
+    display: flex;flex-wrap: wrap;
+}
+.growanimcard{
+ margin: 10px; height: min-content; border: 1px solid white;width:48%;
+}
+.fadeanimcard{
+ margin: 10px; border: 1px solid white;width: 48%;
+}
+.growanimcardheader,.fadeanimcardheader{
+    color:#0275d8;font-weight: 500;padding: 15px; font-size: 16px; background-color: rgba(248,249,252,255);
+}
+.animtitle{
+    font-size: 28px;margin: 10px;
+}
+.animpara{
+    margin: 10px;
+}
+.growpara-1,.fadepara-1{
+  margin:10px;margin-left: 0; font-size: small;
+}
+.grownavbar,.fadenavbar{
+    margin-bottom: 20px;background-color:aliceblue;
+}
+.growpara-3,.fadepara-3{
+    font-size: small;
+}
+.fadepara-3{
+    margin-top: 20px;
+}
+.growmenu{
+    animation: anim1 0.2s 1;
+    position: absolute;
+    
+}
+@keyframes anim1 {
+    0% {
+        transform: scaleY(0);
+    }
+    25%{
+        transform: scaleY(0.4);
+    }
+    50% {
+        transform: scaleY(0.6) 
+    }
+    75%{
+        transform: scaleY(0.8);
+    }
+    100% {
+        transform: scaleY(1) 
+        
+    }
+}
+.fademenu{
+    animation: anim2 0.2s 1;
+    position: absolute;
+    
+}
+@keyframes anim2 {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0,75;
+    }
+    100% {
+        opacity: 1;
+    }
+}

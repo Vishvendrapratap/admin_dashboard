@@ -1,0 +1,102 @@
+.buttonstitle{
+    margin: 10px;font-size: 28px;
+}
+.circleheader,.brandheader,.splitheader{
+    color:#0275d8;font-weight: 500;padding: 15px; font-size: 16px; background-color: rgba(248,249,252,255);
+}
+.allbuttons{
+    display: flex;
+}
+.circlebrandbuttons{
+width: 50%;
+}
+.splitbuttons{
+width: 50%;margin: 10px;
+}
+.circlebuttons,.brandbuttons{
+margin: 10px;
+}
+.cb,.scb,.lcb{
+    border-radius: 50%; margin-right: 5px;
+}
+.cb{
+    height: 40px; width: 40px;
+}
+.scb{
+    height: 28.8px; width: 28.8px; display: flex;justify-content: center;align-items: center;
+}
+.smallbuttons{
+    display: flex;
+}
+.lcb{
+    height: 56px; width: 56px;
+}
+.ni{
+    font-size: 16px;
+}
+.si{
+    font-size: 12px;
+}
+.li{
+    font-size: 21.6px;
+}
+.circlepara{
+    margin-bottom: 20px;
+}
+.circletitle{
+    margin-bottom: 10px;
+}
+.normalbuttons,.smallbuttons,.largebuttons{
+    margin-bottom: 20px;
+}
+.btn-google {
+    color: #fff;
+    background-color: #ea4335;
+    border-color: #fff;width: 100%;margin:5px;
+}
+.btn-google:hover{
+    background-color: #eb200d; color: white;border-color: white;
+}
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #fff;width: 100%;margin:5px;
+}
+.btn-facebook:hover{
+    background-color: #325090; color: white;border-color: white;
+}
+.custombuttons{
+    margin-top: 10px;
+}
+.brandpara-1,.brandpara-2{
+    margin: 10px;margin-left: 0;
+}
+.btn-icon-split{
+    padding: 0;height: 40px;display: flex; align-items: center;margin: 10px; width: 300px;margin-left: 0;
+}
+.spliticon{
+   display: flex;justify-content: center;align-items: center;
+}
+.splittext{
+    margin-left: 10px;
+}
+.splitbuttons{
+    margin-left: 0;
+}
+.splitpara{
+    margin-bottom: 20px;
+}
+.btn-small{
+    height:30px ; width: 180px;
+}
+.btn-large{
+    height:50px ; width: 350px;
+}
+.splittextsmall{
+    font-size: small;margin-left: 10px;
+}
+.splittextlarge{
+    font-size: large;margin-left: 10px;
+}
+
+

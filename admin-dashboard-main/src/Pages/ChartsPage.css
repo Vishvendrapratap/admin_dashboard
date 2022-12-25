@@ -1,0 +1,26 @@
+
+
+.chartspagelinecard{
+    width:60%; margin: 20px;
+}
+.chartspageLineChart{
+    height: 400px;width: 100%;
+}
+.chartspagepiecard{
+    width: 40%;margin: 20px;margin-left: 10px;
+}
+.chartspagePieChart{
+    height: 400px;width: 100%;
+}
+.chartspagecharts{
+    display: flex;
+}
+.hline{
+border: 1px solid rgb(0,0,0,0.5);
+}
+.chartstitle{
+    font-size: 28px;margin: 20px;
+}
+.chartspagepara{
+    margin: 20px;margin-bottom: 0px;
+}

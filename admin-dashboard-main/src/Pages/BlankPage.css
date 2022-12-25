@@ -1,0 +1,6 @@
+.blankpagecontainer{
+    height: 600px;
+}
+.blankpage{
+    margin: 25px;font-size: 30px;font-weight: 400;color: grey;
+}

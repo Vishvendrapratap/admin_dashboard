@@ -1,0 +1,241 @@
+/*Sidebar css*/
+.wrapper{
+  display: flex;
+}
+.Maincontent{
+  display: flex; flex-direction: column;
+}
+.navbar-brand-icon{
+  transform: rotate(-20deg);
+}
+hr{
+  margin: 2px;color: white;
+  width: 90%;
+}
+.navbar-nav{
+  width: 225px;
+}
+.navbar-heading,.btnheading{
+  font-size: 10px; font-weight: 700;margin-left: 10px;
+  color:lightgray; letter-spacing: 0.5px;
+}
+.buttons{
+  background-color: white; border-radius: 10px;width: 200px;
+}
+.sbtn{
+  width: 100%;text-align: left
+}
+.navbar-brand-icon{
+  color: white;font-size: 35px;
+}
+.navbar-brand-name{
+  font-size: 15px; font-weight: 700;color: white; margin-left: 15px;
+}
+.btnname{
+  margin-left: 10px;
+}
+.btnheading{
+  margin: 12px;
+}
+
+/*Maincontent css*/
+
+.Maincontent{
+  width: 100%;
+}
+.topbarsearch{
+  margin-left: 20px; width: 350px!important;
+}
+.topbarsearchbtn{
+  height:100%; border-radius: 0 10px 10px 0;
+}
+.input-group{
+  margin: 10px;
+}
+.vericalline{
+  padding: 5px;display: flex;
+
+}
+.vr{
+  border-left: 1px solid black;margin-right:20px;
+}
+.navbarcont{
+  display: flex;
+  justify-content: space-between;
+}
+.OtherNavbtns{
+  display: flex;justify-content: center;
+}
+.notifbtn,.messagebtn,.profilename{
+  padding: 20px;
+}
+.profile-name{
+  margin-right: 10px;
+}
+.profile-icon{
+  font-size: 30px; 
+}
+.profile{
+  display: flex;align-items: center;
+} 
+.footer{
+  height: 70px; 
+  background-color: aliceblue;display: flex;align-items: center; justify-content: center;
+}
+.bi-bell:hover,.bi-envelope:hover{
+  color: rgb(6, 190, 190);
+}
+.prob{
+  width: 100%;
+}
+/*Content css*/
+
+.content-header{
+  display: flex;justify-content: space-between;margin: 10px;
+}
+.content-header-name{
+  font-size: 30px;
+}
+.content-header-button{
+  width: 150px;height: 35px; font-size: 14px;display: flex;justify-content: center;align-items: center;
+}
+.bi.bi-download{
+  margin-right: 5px; font-size: 15px;margin-left: 0;
+}
+
+
+/*Card css*/
+
+.cards{
+  display: flex;flex-wrap: wrap; justify-content: space-between;
+}
+
+.cardone{
+  border-left:4px solid #0275d8;width: 295px;margin: 10px;border: 1px solid white;
+}
+.cardtwo{
+  border-left:4px solid #5cb85c;width: 295px;margin: 10px;border: 1px solid white;
+}
+.cardthree{
+  border-left:4px solid #5bc0de;width: 295px;margin: 10px;border: 1px solid white;
+}
+.cardfour{
+  border-left:4px solid #f0ad4e;width: 295px;margin: 10px;border: 1px solid white;
+}
+.cbody{
+  display: flex;justify-content: space-between;align-items: center; padding: 25px;
+}
+.card-body-icon{
+  font-size: 32px;color: gray;
+}
+.bc-name{
+  font-size: 12px;font-weight: 500;
+}
+.bc-value{
+  font-weight: 500; font-size: 20px; display: flex; align-items: center;color: gray;
+}
+.progress{
+  width: 100px; height: 10px;
+}
+.progress-bar{
+  width: 50%; 
+}
+.charts{
+  display: flex; flex-wrap: wrap;
+}
+.linecard{
+ flex: 7;
+}
+.piecard{
+  flex: 3;
+}
+.lbody{
+  display: flex;justify-content: center;align-items: center;
+}
+.pbody{
+  display: flex;justify-content: center;align-items: center;
+}
+
+
+/*CharT css*/
+
+.LineChart{
+  height:320px ; width:800px ;
+}
+.lineheader,.pieheader{
+  color:#0275d8;font-weight: 500;padding: 15px; font-size: 16px; background-color: rgba(248,249,252,255);
+}
+.linecard,.piecard{
+  margin: 10px;border: 1px solid white;
+}
+.PieChart{
+  height: 285px; width: 572px;
+}
+
+
+/* sub content css*/
+
+
+.progress-item{
+  width: 100%; margin-bottom: 15px;font-size: small; font-weight: 600;color: grey;
+}
+.perc{
+  float: right;
+}
+.projectsprogress{
+  width: 100%;height: 15px;margin-top: 10px;
+}
+.b1{
+  width: 20%;
+}
+.b2{
+  width: 40%;
+}
+.b3{
+  width: 60%;
+}
+.b4{
+  width: 80%;
+}
+.b5{
+  width: 100%;
+}
+.subcontent{
+  display: flex;
+}
+.subcontent-1{
+  flex: 1;
+}
+.subcontent-2{
+  flex: 1;
+}
+.projectscard,.illustrationscard,.developmentscard{
+  margin: 10px;border: 1px solid white;
+}
+.illustrationsimage{
+  display: flex;justify-content: center;margin:20px;
+}
+.illustrationsbodytext{
+  margin: 15px;margin-left: 0;
+}
+
+.colorcards{
+  display: flex;flex-wrap: wrap;justify-content: space-between;
+}
+.clcard{
+    width:295px;margin: 10px;margin-bottom: 15px; color: white; border: 1px solid white;padding: 5px;
+}
+
+.colorcode{
+  font-size: small;
+}
+
+.projectsheader,.illustrationsheader,.developmentsheader{
+  color:#0275d8;font-weight: 500;padding: 15px; font-size: 16px; background-color: rgba(248,249,252,255);
+}
+.dpara-1,.dpara-2{
+  margin: 10px; margin-left: 0;
+}
+
+
+

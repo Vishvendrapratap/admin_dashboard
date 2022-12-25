@@ -1,0 +1,27 @@
+.loginpagecontainer,.loginpagebody{
+  display: flex;justify-content: center;
+}
+.loginpagecontainer{
+    margin-top: 100px;
+}
+.loginpagecard{
+    padding: 0;
+}
+.loginform{
+    display: flex;flex-direction: column;align-items: center;width: 400px;
+}
+.welcome{
+    font-size: 28px; font-weight: 500;
+}
+.ui{
+    margin: 10px;
+}
+.checkbx{
+    display: flex;align-items: center;
+}
+.loginbtn{
+    width: 100%;margin: 10px;border-radius: 20px;height: 50pxx;
+}
+.ib{
+    border-radius: 20px;height: 50px;
+}

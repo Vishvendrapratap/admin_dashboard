@@ -1,0 +1,23 @@
+.registercontainer{
+    display: flex;justify-content: center;margin-top: 100px;
+}
+.registerbtn{
+    margin: 10px; width: 100%;
+}
+.namein,.passin{
+    display: flex;justify-content: space-between;margin: 10px;
+}
+.registerform{
+    margin: 10px;display: flex;flex-direction: column;align-items: center;}
+.ni,.pi{
+width: 40%;
+}
+.emailin{
+    margin: 10px;width: 100%;
+}
+.registertitle{
+    font-size: 28px; font-weight: 500;
+}
+.bi-google,.bi-facebook{
+    margin-right: 10px;
+}

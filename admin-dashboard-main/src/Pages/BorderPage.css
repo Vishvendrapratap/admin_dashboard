@@ -1,0 +1,65 @@
+.bordertitle{
+    font-size: 28px; margin: 10px;
+}
+.borderpara{
+    margin: 10px;
+}
+.bordercards{
+    display: flex; flex-wrap: wrap; justify-content: space-between;
+}
+.leftbordercards{
+width: 50%;
+}
+.bottombordercards{
+width: 50%;
+}
+.lcard,.bcard{
+    margin: 15px; height: 100px;
+}
+.bordercardbody{
+    display: flex;align-items: center;
+}
+.lprimaryborder{
+    border-left: 5px solid #0275d8;
+}
+.lsecondaryborder{
+    border-left: 5px solid #858796;
+}
+.lsuccessborder{
+    border-left: 5px solid #1cc88a;
+}
+.linfoborder{
+    border-left: 5px solid #36b9cc;
+}
+.lwarningborder{
+    border-left: 5px solid #f6c23e;
+}
+.ldangerborder{
+    border-left: 5px solid #e74a3b;
+}
+.ldarkborder{
+    border-left: 5px solid #5a5c69
+    ;
+}
+
+.bprimaryborder{
+    border-bottom: 5px solid #0275d8;
+}
+.bsecondaryborder{
+    border-bottom: 5px solid #858796;
+}
+.bsuccessborder{
+    border-bottom: 5px solid #1cc88a;
+}
+.binfoborder{
+    border-bottom: 5px solid #36b9cc;
+}
+.bwarningborder{
+    border-bottom: 5px solid #f6c23e;
+}
+.bdangerborder{
+    border-bottom: 5px solid #e74a3b;
+}
+.bdarkborder{
+    border-bottom: 5px solid #5a5c69;
+}
